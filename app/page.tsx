@@ -85,7 +85,7 @@ export default function Home() {
                 </a>
                 , CV:{" "}
                 <a
-                  href="/CV_bskim.pdf"
+                  href="/CV_KIM.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#0000EE", textDecoration: "underline" }}
