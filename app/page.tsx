@@ -19,6 +19,7 @@ import {
   FaCode,
   FaMicrochip,
   FaCarSide,
+  FaLinkedin,
 } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 
@@ -167,6 +168,30 @@ export default function Home() {
               style={{ color: "#0000EE", textDecoration: "underline" }}
             >
               GitHub
+            </a>
+          </li>
+                    <li
+            style={{
+              marginBottom: "8px",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <FaLinkedin
+              style={{
+                marginRight: "8px",
+                verticalAlign: "middle",
+                color: "black",
+              }}
+              size={20}
+            />
+            <a
+              href="https://www.linkedin.com/in/beomseok-kim-0209342a9/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#0000EE", textDecoration: "underline" }}
+            >
+              Linkedin
             </a>
           </li>
           <li style={{ display: "flex", alignItems: "center" }}>
