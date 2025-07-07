@@ -1,6 +1,27 @@
 import React from "react";
 import "./globals.css";
-import { FaGithub, FaMedium } from "react-icons/fa";
+
+import {
+  SiPytorch,
+  SiTensorflow,
+  SiScikitlearn,
+  SiPandas,
+  SiOnnx,
+  SiCmake,
+  SiRos,
+} from "react-icons/si";
+import {
+  FaMedium,
+  FaPython,
+  FaCuttlefish,
+  FaGithub,
+  FaDocker,
+  FaCode,
+  FaMicrochip,
+  FaCarSide,
+} from "react-icons/fa";
+import { DiVisualstudio } from "react-icons/di";
+
 
 export default function Home() {
   return (
@@ -99,10 +120,10 @@ export default function Home() {
         <ul style={{ paddingLeft: "20px" }}>
           <li style={{ marginBottom: "12px" }}>
             <strong>
-              Research Intern, <strong>Nakano Lab</strong>, The University of Tokyo (Apr 2022 – Mar 2023)
+              Software Engineer Intern, <strong>TIER IV</strong> (Dec 2024 – May 2025)
             </strong>
             <br />
-            — Research on self-driving's decision-making
+            — Worked on Inference of SOTA E2E driving models
           </li>
           <li style={{ marginBottom: "12px" }}>
             <strong>
@@ -113,10 +134,10 @@ export default function Home() {
           </li>
           <li>
             <strong>
-              Software Engineer Intern, <strong>TIER IV</strong> (Dec 2024 – May 2025)
+              Research Intern, <strong>Nakano Lab</strong>, The University of Tokyo (Apr 2022 – Mar 2023)
             </strong>
             <br />
-            — Worked on Inference of SOTA E2E driving models
+            — Research on self-driving's decision-making
           </li>
         </ul>
       </section>
@@ -170,31 +191,155 @@ export default function Home() {
         </ul>
       </section>
 
+      <section id="skills" className="section">
+        <h2>Technical Skills</h2>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: "30px",
+            paddingLeft: "20px",
+            maxWidth: "900px",
+          }}
+        >
+          {/* Programming Languages */}
+          <div style={{ paddingRight: "50px" }}>
+            <h4 style={{ position: "relative", paddingLeft: "20px" }}>
+              <span
+                style={{
+                  position: "absolute",
+                  left: 0,
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  fontSize: "1.3rem",
+                  lineHeight: 1,
+                  color: "black",
+                  userSelect: "none",
+                }}
+              >
+                •
+              </span>
+              Languages
+            </h4>
+            <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <FaPython style={{ marginRight: "8px" }} /> Python
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <FaCuttlefish style={{ marginRight: "8px" }} /> C++
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <FaCode style={{ marginRight: "8px" }} /> MATLAB / Simulink
+              </li>
+            </ul>
+          </div>
+
+          {/* AI / ML Tools */}
+          <div style={{ paddingRight: "10px" }}>
+            <h4 style={{ position: "relative", paddingLeft: "20px" }}>
+              <span
+                style={{
+                  position: "absolute",
+                  left: 0,
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  fontSize: "1.3rem",
+                  lineHeight: 1,
+                  color: "black",
+                  userSelect: "none",
+                }}
+              >
+                •
+              </span>
+              AI / ML Tools
+            </h4>
+            <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <SiPytorch style={{ marginRight: "8px" }} /> PyTorch
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <SiTensorflow style={{ marginRight: "8px" }} /> TensorFlow
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <SiOnnx style={{ marginRight: "8px" }} /> ONNX
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <FaMicrochip style={{ marginRight: "8px" }} /> TensorRT
+              </li>
+            </ul>
+          </div>
+
+          {/* Developer & Other Tools */}
+          <div>
+            <h4 style={{ position: "relative", paddingLeft: "20px" }}>
+              <span
+                style={{
+                  position: "absolute",
+                  left: 0,
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  fontSize: "1.3rem",
+                  lineHeight: 1,
+                  color: "black",
+                  userSelect: "none",
+                }}
+              >
+                •
+              </span>
+              Developer & Other Tools
+            </h4>
+            <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <FaGithub style={{ marginRight: "8px" }} /> GitHub
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <DiVisualstudio style={{ marginRight: "8px" }} /> VSCode
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <SiRos style={{ marginRight: "8px" }} /> ROS
+              </li>
+              <li style={{ display: "flex", alignItems: "center", paddingLeft: "20px" }}>
+                <FaCarSide style={{ marginRight: "8px" }} /> CARLA
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
       <section id="projects" className="section">
         <h2>Projects</h2>
-        <ul>
-          <li>
+        <ul style={{ paddingLeft: "20px" }}>
+          <li style={{ marginBottom: "12px" }}>
             <a
-              href="https://github.com/yourusername/project1"
+              href="https://github.com/bskkimm/Paper-Implementation-Series"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Project 1
+              From Paper to Code: Implementations of Key Computer Vision Papers from Scratch
             </a>{" "}
-            — brief description or readme excerpt.
-          </li>
-          <li>
-            <a
-              href="https://github.com/yourusername/project2"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Project 2
-            </a>{" "}
-            — brief description or readme excerpt.
+            — An individual implementation project series built from scratch in PyTorch — from CNNs to Transformers, covering tasks from classification to object detection, with full pipelines including model explanation, data preparation, training, and visualization
           </li>
         </ul>
+                    <div style={{ marginTop: "12px" }}>
+              <img
+                src="/implementation_paper.png"
+                alt="Representative figure for paper implmentation"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  border: "1px solid #ddd",
+                  borderRadius: "6px",
+                  padding: "4px",
+                }}
+              />
+            </div>
       </section>
+
+
 
       <section id="publications" className="section">
         <h2>Publications</h2>
