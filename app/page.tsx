@@ -218,6 +218,11 @@ export default function Home() {
 
       <section id="skills" className="section">
         <h2>Technical Skills</h2>
+
+        <p style={{ paddingLeft: "20px", maxWidth: "900px", marginBottom: "20px" }}>
+          Experienced in OOP with Python (advanced) and C++ (intermediate). Skilled in building end-to-end computer vision ML pipelines—from data preprocessing and model training to inference.
+        </p>
+
         <div
           style={{
             display: "grid",
@@ -330,6 +335,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
 
 
