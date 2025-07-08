@@ -108,7 +108,7 @@ export default function Home() {
             Mech. Eng., Master’s Degree
           </li>
           <li>
-            <strong>Soongsil University, Korea/strong>
+            <strong>Soongsil University, Korea</strong>
             <br />
             Mech. Eng., Bachelor’s Degree
           </li>
