@@ -103,12 +103,12 @@ export default function Home() {
         <h2>Education</h2>
         <ul style={{ paddingLeft: "20px" }}>
           <li style={{ marginBottom: "12px" }}>
-            <strong>The University of Tokyo, 2023–2025, Japan</strong>
+            <strong>The University of Tokyo, Japan</strong>
             <br />
             Mech. Eng., Master’s Degree
           </li>
           <li>
-            <strong>Soongsil University, 2016–2022, Korea</strong>
+            <strong>Soongsil University, Korea/strong>
             <br />
             Mech. Eng., Bachelor’s Degree
           </li>
